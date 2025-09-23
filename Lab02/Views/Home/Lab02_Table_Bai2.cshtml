@@ -1,0 +1,104 @@
+﻿@{
+    ViewBag.Title = "About";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <style type="text/css">
+        .Table2 {
+            width: 1000px;
+            height: 500px;
+            border-collapse: collapse;
+        }
+
+        .header {
+            background-color: rgb(213, 210, 210);
+            border-bottom: 4px solid rgb(73, 73, 73);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .cell {
+            border-bottom: 1px solid rgb(73, 73, 73);
+        }
+
+        #col2, #col3 {
+            text-align: center;
+            border-left: 1px solid rgb(73, 73, 73);
+            border-right: 1px solid rgb(73, 73, 73);
+        }
+
+        h1 {
+            color: rgb(24, 98, 200)
+        }
+
+        .date, .highlight {
+            color: rgb(24, 98, 200);
+        }
+    </style>
+</head>
+<body>
+    <table class="Table2" cellspacing="0" cellpadding="10">
+        <tr>
+            <th class="header" style="text-align: left;">Topic</th>
+            <th class="header" id="col2">Ports</th>
+            <th class="header" id="col3">Views</th>
+            <th class="header">Last Post</th>
+        </tr>
+        <tr>
+            <td class="cell">
+                <h1>🔐 Posting Guidelines </h1>
+                <p>Posted in <span class="highlight">Please Read First!</span> by Joe Gillespie</p>
+            </td>
+            <td class="cell" id="col2">1</td>
+            <td class="cell" id="col3">288</td>
+            <td class="cell">
+                <p class="date">Dec 21, 2003</p>
+                <p>by Joe Gillespie</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="cell">
+                <h1>🔐 Forum Rules </h1>
+                <p>Posted in <span class="highlight">Please Read First!</span> by Joe Gillespie</p>
+            </td>
+            <td class="cell" id="col2">1</td>
+            <td class="cell" id="col3">2023</td>
+            <td class="cell">
+                <p class="date">Dec 21, 2003</p>
+                <p>by Joe Gillespie</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="cell">
+                <h1> 💬 A suitable Word Template </h1>
+                <p>Posted in <span class="highlight">Web Design Software!</span> by Joe Gillespie</p>
+            </td>
+            <td class="cell" id="col2">2</td>
+            <td class="cell" id="col3">199</td>
+            <td class="cell">
+                <p class="date">Dec 21, 2003</p>
+                <p>by Joe Gillespie</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="cell">
+                <h1>💬 few HTML and CSS issues </h1>
+                <p>Posted in <span class="highlight">Layout</span> by Jade M</p>
+            </td>
+            <td class="cell" id="col2">3</td>
+            <td class="cell" id="col3">1</td>
+            <td class="cell">
+                <p class="date">Dec 21, 2003</p>
+                <p>by Joe Gillespie</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
