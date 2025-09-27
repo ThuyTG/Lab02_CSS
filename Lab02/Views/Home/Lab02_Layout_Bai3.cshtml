@@ -1,0 +1,112 @@
+@{
+    ViewBag.Title = "About";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout 3</title>
+    <style>
+        .layout {
+            width: 1200px;
+            height: 1500px;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .menu-template {
+            text-align: center;
+            width: 120px;
+            height: 280px;
+            margin-right: 10px;
+            border: 1px solid black;
+            background-color: rgb(238, 238, 121);
+        }
+
+            .menu-template a {
+                display: block;
+                color: black;
+            }
+
+        .main-content {
+            width: 750px;
+            height: auto;
+            border: 1px solid black;
+            margin-right: 5px;
+            padding: 5px;
+        }
+
+        .content1, .content2 {
+            margin: 5px;
+        }
+
+        img {
+            width: 50px;
+            height: 30px;
+        }
+
+        .note {
+            width: 130px;
+            height: 80px;
+            background-color: rgb(255,141,125);
+            border: 1px solid black;
+            text-align: center;
+            align-content: center;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: rgb(255,141,125);
+            text-align: center;
+            align-content: center;
+            border-top: 1px solid black;
+            height: 50px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="content">
+            <div class="menu-template">
+                <p><b>Template</b></p>
+                <a href="">Left Column</a>
+                <a href="">Right Column</a>
+                <a href="">Top & Right</a>
+                <a href="">3 Column</a>
+                <a href="">3 Column & Footer</a>
+                <a href="">Threaded</a>
+                <a href="">Unthreaded</a>
+                <a href="">prosandcons1</a>
+                <a href="">prosandcons2</a>
+                <a href="">spider1</a>
+            </div>
+            <div class="main-content">
+                <div class="content1">
+                    <h2>Three Column Layout with Footer</h2>
+                    <p>This layout demonstrates a three column layout with a bottom footer stretching the width of the page. The left and right columns are positioned absolutely and the central column (this main body of text) is given very large margins to accommodate the width of the side columns.</p>
+                    <p>The footer is positioned along the bottom of the page. Some CSS properties attached to various elements of the page ensure that it is always at the bottom of the view port or the document, whichever is "lower". This is based on an <a href="">interesting CSS technique.</a></p>
+                </div>
+                <div class="content2">
+                    <h3>Dummy text</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </div>
+                <div class="element">
+                    <img src="/Home/hinh01.jpg" alt="">
+                </div>
+                <div class="lastline">This work is licensed under a Creative Commons License</div>
+            </div>
+            <div class="note">There is nothing in this world constant but inconstancy.</div>
+        </div>
+
+        <div class="footer">
+            Designed by <a href="">Ben Meadowcroft</a>
+        </div>
+    </div>
+</body>
+</html>

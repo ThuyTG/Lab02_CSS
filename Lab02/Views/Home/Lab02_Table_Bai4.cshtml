@@ -1,0 +1,87 @@
+@{
+    ViewBag.Title = "About";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <style>
+        .Table4 {
+            background-color: rgba(198, 198, 198, 0.797);
+            border-collapse: collapse;
+        }
+
+        tr, td, th {
+            border: 1px solid rgb(120, 183, 26);
+            border-collapse: collapse;
+        }
+
+        #row1 {
+            height: 10px;
+        }
+
+        .dual {
+            background-color: rgb(214,235,239);
+            text-align: left;
+        }
+
+        .Table4 th.congratulate {
+            text-align: left;
+            background-color: none;
+            border: none;
+        }
+
+        .odd {
+            background-color: white;
+        }
+
+        .even {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <table class="Table4" cellpadding="10" cellspacing="0">
+        <tr class="row1">
+            <td colspan="4">
+                <p style="float: right;"> Table: Power Mac G5 tech specs</p>
+            </td>
+        </tr>
+        <tr>
+            <th class="congratulate">CONGRATULATION</th>
+            <th class="dual">DUAL 1.8GHZ</th>
+            <th class="dual">DUAL 2GHZ</th>
+            <th class="dual">DUAL 2.5GHZ</th>
+        </tr>
+        <tr class="odd">
+            <td id="title">MODEL</td>
+            <td id="18ghz">9454LL/A</td>
+            <td id="2ghz">9455LL/A</td>
+            <td id="25ghz">9457LL/A</td>
+        </tr>
+        <tr class="even">
+            <td id="title">G5 Processor</td>
+            <td id="18ghz">Dual 1.8GHz PowerPC G5</td>
+            <td id="2ghz">Dual 2GHz PowerPC G5</td>
+            <td id="25ghz">Dual 2.5GHz PowerPC G5</td>
+        </tr>
+        <tr class="odd">
+            <td id="title">Frontside Bus</td>
+            <td id="18ghz">900MHz per processor</td>
+            <td id="2ghz">1GHz per processor</td>
+            <td id="25ghz">1.25GHz per processor</td>
+        </tr>
+        <tr class="even">
+            <td id="title">Level2 Cache</td>
+            <td id="18ghz">512K per processor</td>
+            <td id="2ghz">512K per processor</td>
+            <td id="25ghz">512K per processor</td>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -43,5 +43,18 @@ namespace Lab02.Controllers
         {
             return View();
         }
+        public ActionResult Lab02_Layout_Bai1()
+        {
+            return View();
+        }
+        public ActionResult Lab02_Layout_Bai2()
+        {
+            return View();
+        }
+        public ActionResult Lab02_Layout_Bai3()
+        {
+            return View();
+        }
+
     }
 }
